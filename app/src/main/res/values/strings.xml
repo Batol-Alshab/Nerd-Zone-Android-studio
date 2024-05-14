@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NERD ZONE</string>
+    <string name="api">http://192.168.1.114:8000/api</string>
+
+</resources>

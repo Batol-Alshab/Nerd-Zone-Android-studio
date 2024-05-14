@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/ColorApp" android:width="1dp"></stroke>
+        </shape>
+    </item>
+
+    <item android:state_enabled="true" android:state_focused="false">
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/ColorBlack" android:width="1dp"></stroke>
+        </shape>
+    </item>
+</selector>
+
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--<solid android:color="#00000000"/> &lt;!&ndash; لون الخلفية فارغ &ndash;&gt;-->
+<!--<corners android:radius="10dp"/> &lt;!&ndash; زاوية الشكل &ndash;&gt;-->
+<!--<stroke android:width="2dp" android:color="#FF0000"/> &lt;!&ndash; خط حول الشكل &ndash;&gt;-->
+<!--<gradient android:startColor="#FF0000" android:endColor="#0000FF" android:type="linear" android:angle="45"/> &lt;!&ndash; ظل خطي &ndash;&gt;-->
+<!--</shape>-->

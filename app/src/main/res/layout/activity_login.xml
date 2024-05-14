@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="50dp"
+    android:padding="20dp"
+    android:textDirection="rtl"
+    tools:context="com.example.lenovo.myapplication.LoginActivity"
+    >
+    <!--android:background="@drawable/input"-->
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/logo"-->
+        <!--android:layout_margin="20dp"/>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail1"
+        android:hint="البريد الالكتروني"
+        android:drawableStart="@drawable/ic_email"
+        android:background="@drawable/input"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword1"
+        android:hint="كلمة المرور"
+        android:drawableStart="@drawable/ic_locked"
+        android:background="@drawable/input"
+        android:inputType="textPassword"
+        android:gravity="right"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="تسجيل الدخول"
+        android:background="@color/ColorApp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:text="انشاء حساب"
+        android:background="@color/ColorApp"/>
+
+</LinearLayout>

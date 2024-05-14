@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50dp"
+    android:textDirection="rtl"
+    tools:context="com.example.lenovo.myapplication.RgisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFNmae"
+        android:hint="الاسم الاول"
+
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLNmae"
+        android:hint="الاسم الاخير"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        android:hint="البريد الالكتروني"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:gravity="right"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etConfirmation"
+        android:hint="تأكيد كلمة المرور"
+        android:inputType="textPassword"
+        android:gravity="right"
+        android:layout_marginBottom="10dp"
+        />
+    <RadioGroup
+        android:id="@+id/section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:textDirection="rtl"
+        android:layout_marginBottom="10dp"
+        >
+
+        <RadioButton
+            android:id="@+id/sientific"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الفرع العلمي"
+            android:padding="5dp"/>
+
+        <RadioButton
+            android:id="@+id/literary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الفرع الأدبي"
+            android:padding="5dp"
+            />
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:textDirection="rtl"
+        android:layout_marginBottom="20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="أنثى"
+            android:padding="5dp"/>
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ذكر"
+            android:padding="5dp"
+            />
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:text="إنشاء حساب"
+        android:background="@color/ColorApp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+</LinearLayout>
